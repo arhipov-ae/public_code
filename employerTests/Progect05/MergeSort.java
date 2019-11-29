@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class MergeSort {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
         var source = new int[]{9, 8, 7, 6, 5, 4, 3, 2, 9};
         System.out.println("Original array:" + Arrays.toString(source));
         mergeSort(source, 0, source.length - 1);
